@@ -89,14 +89,18 @@ class Solution
 }
 
 $test = new Solution;
-$A = [1,2,3,5,6,4,7,9,11,8,12,13];
+$A = [6,2,3,5,1,4,7,9,11,8,12,13,14,15,17,16];
 
-echo 'Missing Element: <br>';
-echo 'Cach 1: '.$test->findMissingElement1($A);
+echo "<pre>";
+print_r($A);
+echo "</pre>";
 
-echo '<br>Cach 2: ';
+echo 'Find Missing Element: <br>';
+echo 'Kết quả dùng cách 1: '.$test->findMissingElement1($A);
+
+echo '<br>Kết quả dùng cách 2: ';
 echo $test->findMissingElement2($A);
 
-echo '<br>Cach 3: ';
+echo '<br>Kết quả dùng cách 3: ';
 echo $test->findMissingElement3($A);
 ?>
