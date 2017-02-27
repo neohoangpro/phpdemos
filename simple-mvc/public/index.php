@@ -17,5 +17,4 @@ $finish = $time;
 $total_time = round(($finish - $start), 4);
 echo 'Page generated in '.$total_time.' seconds.';
 
-//tut: https://www.youtube.com/watch?v=pQG_jgttwps&index=9&list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD
 ?>
